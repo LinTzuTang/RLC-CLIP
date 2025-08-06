@@ -27,7 +27,7 @@ This repository implements a **cross-domain multimodal contrastive learning pipe
   - Contrastive loss to align sequence-structure pairs during pretraining
   - Downstream Transformer for binding affinity regression
 - **Baselines:**  
-  Retrained RLaffinity, GIGN transfer learning; new model outperforms both (Test RMSE ~1.8 vs ~1.9)
+  [Retrained RLaffinity](https://github.com/LinTzuTang/RLaffinity), [GIGN transfer learning](https://github.com/LinTzuTang/GIGN); new model outperforms both (Test RMSE ~1.8 vs ~1.9)
 
 See full method details in [the original PDF](./docs/Cross-Domain%20Multimodal%20Contrastive%20Learning%20for%20RNA-Ligand%20Binding%20Affinity%20Prediction.pdf) and [the report slides](./docs/RNA-ligand%20binding%20affinity%20prediction%20slides.pdf)
 
